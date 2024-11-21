@@ -1,6 +1,6 @@
 <?php
 
-namespace LinkedList;
+namespace SortedLinkedList;
 
 class Node
 {
@@ -14,7 +14,7 @@ class Node
     }
 }
 
-class LinkedList
+class SortedLinkedList
 {
     /**
      * @var bool Enables/disables log messages
