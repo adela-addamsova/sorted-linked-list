@@ -1,0 +1,16 @@
+{
+    "name": "jackie/sorted-linked-list",
+    "description": "Class with sorted single linked list that can contain either integers or strings. Includes function for insert, update, read, count, and delete data.",
+    "authors": [
+        {
+            "name": "adela-addamsova",
+            "email": "a.addamsova@gmail.com"
+        }
+    ],
+    "require": {
+    },
+
+    "autoload": { 
+        "psr-4": { "LinkedList\\": "src/" } 
+    }
+}

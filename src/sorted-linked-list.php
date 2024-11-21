@@ -1,5 +1,7 @@
 <?php
 
+namespace LinkedList;
+
 class Node
 {
     public $data;
@@ -122,7 +124,7 @@ class LinkedList
         $this->deleteNode($currentNode->data);
         $this->insertNode($currentNode->data);
 
-        if(!$this->deleteNode($currentNode->data) || !$this->insertNode($currentNode->data)) {
+        if (!$this->deleteNode($currentNode->data) || !$this->insertNode($currentNode->data)) {
             return false;
         }
 
